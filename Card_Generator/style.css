@@ -1,0 +1,29 @@
+#generateBtn{
+    background-color: rgb(9, 160, 9);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 8px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+.profile-card{
+    border-radius: 10px;
+    border-color: bisque;
+    padding: 30px;
+    background-color: rgb(102, 102, 227);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.profile-card img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
