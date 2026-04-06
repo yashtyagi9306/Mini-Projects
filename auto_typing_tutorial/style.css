@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #1a1a1a, #2c3e50);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  position: relative;
+  padding: 0 40px;
+}
+h2{
+    color: #a499dd;
+    position: relative;
+}
+
+.auto-type {
+  color: #a499dd;
+  
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
